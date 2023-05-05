@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F7F6F4;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.df {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center!important;
+}
+.justify-flex-end {
+  justify-content: flex-end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.text-center {
+  text-align: center;
+}
+.text-primary {
+  color: #FF0D29;
+}
+.text-black {
+  color: #000000;
+}
+.text-grey {
+  color: #808080;
+}
+.red {
+  background: #FFE4E4;
+  color: #DD4C5D;
+}
+.blue {
+  background: #D6F5FF;
+  color: #0291C1;
+}
+.greys1 {
+  background: #EDEDED;
+  color: #686868;
+}
+.greys2 {
+  background: #CCCCCC;
+  color: #808080;
+}
+.text-span {
+  color: #808080!important;
+}
+ul {
+  list-style-type: none;
+}
+.bg-red {
+  background: #DD4C5D;
+}
+.bg-blue {
+  background: #0291C1;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+label, button, input[type=checkbox] {
+  cursor: pointer;
+}
+
+@media(max-width: 600px) {
+  .container {
+    max-width: 525px;
+  }
+  section {
+    height: auto;
+  }
+}
